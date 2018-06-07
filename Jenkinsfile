@@ -4,7 +4,7 @@ pipeline {
     stage('Say hello') {
       steps {
         echo 'Hello Jenkins'
-        sh 'Java -version'
+        sh 'java -version'
       }
     }
   }
